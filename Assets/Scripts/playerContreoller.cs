@@ -10,7 +10,7 @@ public class playerContreoller : MonoBehaviour
     [SerializeField] private bool isJump=false;
     [SerializeField] private TextMeshProUGUI coinText;
     [SerializeField] private GameObject explotionVfx;
-   [SerializeField] private helthbarscript _helthbarscript;
+    [SerializeField] private helthbarscript _helthbarscript;
     private int coinCount;
     void Start()
     {
